@@ -1,0 +1,71 @@
+
+/* default styles*/
+
+:focus {
+  outline: none;
+}
+
+body {
+  
+  font-family: 'Bungee Hairline', cursive;
+  color: black;
+  font-size: 18px;
+  background-color:whitesmoke;
+  background-image:
+    linear-gradient(45deg, rgba(62, 1, 64, 0.12230829831932777) 0%,
+      rgba(121, 68, 9, 0.11670605742296913) 35%,
+      rgba(0, 134, 223, 0.12230829831932777) 100%, transparent 25%),
+    linear-gradient(-45deg, rgba(62, 1, 64, 0.12230829831932777) 0%,
+      rgba(121, 68, 9, 0.11670605742296913) 35%,
+      rgba(0, 134, 223, 0.12230829831932777) 100%, transparent 25%),
+    linear-gradient(45deg, transparent 75%,rgba(62, 1, 64, 0.12230829831932777) 0%,
+      rgba(121, 68, 9, 0.11670605742296913) 35%,
+      rgba(0, 134, 223, 0.12230829831932777) 100%),
+    linear-gradient(-45deg, transparent 75%, rgba(62, 1, 64, 0.12230829831932777) 0%,
+      rgba(121, 68, 9, 0.11670605742296913) 35%,
+      rgba(0, 134, 223, 0.12230829831932777) 100%);
+  background-size: 25px 25px;
+  background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+}
+
+// font-family: 'Bungee Hairline',
+// cursive;
+// font-family: 'Exo 2',
+// sans-serif;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.list {
+  list-style: none;
+  padding: 0; 
+  margin: 0;
+}
