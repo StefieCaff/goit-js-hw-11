@@ -1,3 +1,9 @@
+//------------------imports----------------------------------
+//const axios = require('axios/dist/node/axios.cjs'); // node
+import { Notify } from 'notiflix/build/notiflix-notify-aio';
+import SimpleLightbox from "simplelightbox";
+import "simplelightbox/dist/simple-lightbox.min.css";
+
 
 
 var API_KEY = '33708941-9afad2bda68efbaf1594840f2';
@@ -8,3 +14,35 @@ if (parseInt(data.totalHits) > 0)
 else
     console.log('No hits');
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//--------------------template for card------------------------
+`<div class="photo-card">
+  <img src="" alt="" loading="lazy" />
+  <div class="info">
+    <p class="info-item">
+      <b>Likes</b>
+    </p>
+    <p class="info-item">
+      <b>Views</b>
+    </p>
+    <p class="info-item">
+      <b>Comments</b>
+    </p>
+    <p class="info-item">
+      <b>Downloads</b>
+    </p>
+  </div>
+</div>`
