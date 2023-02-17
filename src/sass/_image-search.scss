@@ -6,7 +6,6 @@
 }
 
 body {
-  
   font-family: 'Bungee Hairline', cursive;
   color: black;
   font-size: 18px;
@@ -24,7 +23,7 @@ body {
     linear-gradient(-45deg, transparent 75%, rgba(62, 1, 64, 0.12230829831932777) 0%,
       rgba(121, 68, 9, 0.11670605742296913) 35%,
       rgba(0, 134, 223, 0.12230829831932777) 100%);
-  background-size: 25px 25px;
+  background-size: 10px 10px;
   background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
 }
 
@@ -68,4 +67,10 @@ img {
   list-style: none;
   padding: 0; 
   margin: 0;
+}
+
+button {
+    color: whitesmoke;
+background: rgb(75, 0, 78);
+    background: linear-gradient(180deg, rgba(75, 0, 78, 1) 57%, rgba(121, 68, 9, 1) 89%, rgba(0, 134, 223, 0.9010197829131653) 100%);
 }
