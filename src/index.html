@@ -12,7 +12,16 @@
     <script type="module" src="./index.js"></script>
   </head>
   <body>
+    <form class="search-form" id="search-form">
+      <input class="searchQuery" type="text" name="searchQuery" autocomplete="off" placeholder="Search images..." />
+      <button type="submit">Search</button>
+    </form>
+    <div class="gallery">
+    <!-- Image cards -->
+    </div>
+    <button type="button" class="load-more">Load more</button>
+    
     <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/image-search.html"></include>
+    <!-- <include src="./partials/image-search.html"></include> -->
   </body>
 </html>
