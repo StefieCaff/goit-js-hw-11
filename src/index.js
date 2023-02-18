@@ -1,8 +1,10 @@
-//------------------imports----------------------------------
-const axios = require('axios').default;
+//------------------imports/require------------------------------
+import './css/styles.css';
+
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import SimpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
+const axios = require('axios').default;
 
 const userInput = document.querySelector('.searchQuery');
 const API_KEY = '33708941-9afad2bda68efbaf1594840f2';
