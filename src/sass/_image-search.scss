@@ -7,13 +7,9 @@
 
 body {
   font-family: 'Bungee Hairline', cursive;
-  color: black;
   font-size: 18px;
   width: 100vw;
   height: 100vh;
-//background-image: 
-//linear-gradient(180deg, rgba(75, 0, 78, 0.8379945728291316) 0%, rgba(121, 68, 9, 0.6391150210084033) 48%, rgba(0, 134, 223, 0.7623643207282913) 100%);
-  //linear-gradient(180deg, rgba(75, 0, 78, 0.2525603991596639) 27%, rgba(121, 68, 9, 0.26096376050420167) 62%, rgba(0, 134, 223, 0.2525603991596639) 81%);
   background-color:whitesmoke;
   background-image:
     linear-gradient(45deg, rgba(62, 1, 64, 0.12230829831932777) 0%,
@@ -28,28 +24,8 @@ body {
     linear-gradient(-45deg, transparent 75%, rgba(62, 1, 64, 0.12230829831932777) 0%,
         rgba(121, 68, 9, 0.11670605742296913) 35%,
         rgba(0, 134, 223, 0.12230829831932777) 100%);
- background-size: 10px 10px;
- //background-repeat: no-repeat;
-
+  background-size: 10px 10px;
   background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
-
-
-// background-image:
-//   linear-gradient(45deg, rgba(75, 0, 78, 0.2525603991596639) 27%,
-//     rgba(121, 68, 9, 0.26096376050420167) 62%,
-//     rgba(0, 134, 223, 0.2525603991596639) 81%, transparent 25%),
-//   linear-gradient(-45deg, rgba(75, 0, 78, 0.2525603991596639) 27%,
-//     rgba(121, 68, 9, 0.26096376050420167) 62%,
-//     rgba(0, 134, 223, 0.2525603991596639) 81%, transparent 25%),
-//   linear-gradient(45deg, transparent 75%, rgba(62, 1, 64, 0.12230829831932777) 0%,
-//     rgba(121, 68, 9, 0.11670605742296913) 35%,
-//     rgba(0, 134, 223, 0.12230829831932777) 100%,),
-//   linear-gradient(-45deg, transparent 75%, rgba(62, 1, 64, 0.12230829831932777) 0%,
-//     rgba(121, 68, 9, 0.11670605742296913) 35%,
-//     rgba(0, 134, 223, 0.12230829831932777) 100%,);
-
-
-
 }
 
 // font-family: 'Bungee Hairline',
@@ -101,10 +77,9 @@ img {
   align-items: center;
   justify-content: center;
   background-image: linear-gradient(180deg, rgba(84, 45, 85, 1) 0%, rgba(126, 102, 75, 1) 56%, rgba(114, 136, 150, 1) 100%);
- 
   background-repeat: no-repeat;
   width: 100vw;
-  height: 120px;
+  height: 105px;
 }
 
 button {
@@ -116,6 +91,11 @@ button {
   padding: 7px 12px;
   margin: 5px;
   cursor: pointer;
+  transition: 0.7s;
+}
+
+button:hover {
+  background: linear-gradient(180deg, rgba(84, 45, 85, 1) 0%, rgba(126, 102, 75, 1) 56%, rgba(114, 136, 150, 1) 100%);
 }
 
 input {
@@ -124,10 +104,10 @@ input {
   box-shadow: rgb(216, 225, 233) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
   padding: 7px;
   background-color: whitesmoke;
+  color: rgba(75, 0, 78, 1);
   margin: 5px;
   margin-right: 0px;
   max-width: 160px;
-  cursor: pointer;
 }
 
 // -------------------lightbox styling--------------------
